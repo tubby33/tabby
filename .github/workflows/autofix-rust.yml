@@ -8,8 +8,7 @@ on:
       - 'Cargo.toml'
       - 'Cargo.lock'
       - 'crates/**'
-      - 'ee/**'
-      - '!ee/tabby-ui/**'
+      - 'ee/tabby-webserver/**'
 
 permissions:
   contents: read
